@@ -326,23 +326,19 @@ def show(number, score, sequence, sequence2, sequence3, pos=None, pos2=None):
     print("-" * 60)
 
 def subset(similarityRateMatrix):
-	lst = [set() for i in range(len(similarityRateMatrix))]
-	for i in range(len(similarityRateMatrix)):
-		for j in range(len(similarityRateMatrix)):
-			if i !=j and similarityRateMatrix[j][i] <= 60:
-				temp = lst[i] | {i,j}
-				if generateSubSetOf2(list(temp), similarityRateMatrix):
-					lst[i] |= {i,j}
+    lst = [[i] for i in range(len(similarityRateMatrix))]
+    for i in range(len(similarityRateMatrix)):
+    	for j in range(len(similarityRateMatrix)):
+    		if i != j and similarityRateMatrix[j][i] <= 60:
+    			temp = lst[i] + [j]
+    			if generateSubSetOf2(temp, similarityRateMatrix):
+    				lst[i] += [j]
 
-	sortingSet = [(len(lst[i]),i) for i in range(len(lst))]
-	sortingSet.sort(reverse=True)
-	found = False
-	i = 0
-	while not found and  i < len(lst):
-		set_ = lst[sortingSet[i][1]]
-		found = generateSubSetOf2(list(set_), similarityRateMatrix)
-		i +=1
-	return set_
+    setLength = [len(lst[i]) for i in range(len(lst))]
+    maxLen = max(setLength)
+    for elem in lst:
+        if len(elem) == maxLen:
+            return elem
 
 def generateSubSetOf2(lst, similarityRateMatrix, k=2, setOfK=[], i=0,condition = True):
 	if condition :
@@ -372,20 +368,33 @@ def sequencesParser(filename):
 	f.close()
 	return (sequencesName,sequencesList)
 
+def generateReducedFile(filename,reducedListIndex,sequencesName,sequencesList):
+    f = open(filename, "w", encoding='utf-8')
+
+    for index in reducedListIndex:
+        sequence = sequencesName[index] + "\n" + sequencesList[index] + "\n"
+        print(sequencesList[index])
+        f.write(sequence)
+    f.close
+
+
 if __name__ == "__main__":
 
-	MATSUB = matrixParser("pam120.txt")
-	sequencesName, sequences = sequencesParser("to-be-aligned.fasta")
-	n = len(sequences)
-	similarityRateMatrix = [[0 for i in range(n)] for j in range(n)]
+    MATSUB = matrixParser("blosum80.txt")
+    I = 6
+    E = 1
+    sequencesName, sequences = sequencesParser("to-be-aligned.fasta")
+    n = len(sequences)
+    similarityRateMatrix = [[0 for i in range(n)] for j in range(n)]
 
-	for i in range(len(sequences)):
-		for j in range(i+1,len(sequences)) :
-			seq1 = ADTsequence(sequences[i])
-			seq2 = ADTsequence(sequences[j])
-			S = ScoringMatrix("S","GLOBAL",seq1,seq2,12,2)
-			V = ScoringMatrix("V","GLOBAL",seq1,seq2)
-			W = ScoringMatrix("W","GLOBAL",seq1,seq2)
-			similarityRateMatrix[i][j] = similarityRateMatrix[j][i] = NeedlemanWunsch(S,V,W,MATSUB,1,12,2).getSimilarityRate()
-	solution = subset(similarityRateMatrix)
-	print(solution)
+    for i in range(len(sequences)):
+    	for j in range(i+1,len(sequences)) :
+    		seq1 = ADTsequence(sequences[i])
+    		seq2 = ADTsequence(sequences[j])
+    		S = ScoringMatrix("S","GLOBAL",seq1,seq2,I,E)
+    		V = ScoringMatrix("V","GLOBAL",seq1,seq2)
+    		W = ScoringMatrix("W","GLOBAL",seq1,seq2)
+    		similarityRateMatrix[i][j] = similarityRateMatrix[j][i] = NeedlemanWunsch(S,V,W,MATSUB,1,I,E).getSimilarityRate()
+
+    solution = subset(similarityRateMatrix)
+    generateReducedFile("to-be-aligned-reduced.fasta",solution,sequencesName,sequences)
