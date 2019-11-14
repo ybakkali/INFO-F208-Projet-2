@@ -1,42 +1,32 @@
->smart|WW-uniprot|P46934|NEDD4_HUMAN/611-643 E3 ubiquitin-protein ligase NEDD4 [Homo sapiens]
-PLPPGWEERQDILGRTYYVNHESRRTQWKRPTP
->smart|WW-uniprot|Q9UPV0|CE164_HUMAN/57-89 Centrosomal protein of 164 kDa [Homo sapiens]
-PLPGEWKPCQDITGDIYYFNFANGQSMWDHPCD
->smart|WW-uniprot|Q8N1G2|CMTR1_HUMAN/753-786 Cap-specific mRNA (nucleoside-2&apos;-O-)-methyltransferase 1 [Homo sapiens]
-TVNEPWTMGFSKSFKKKFFYNKKTKDSTFDLPAD
->smart|WW-uniprot|Q8WYQ5|DGCR8_HUMAN/302-334 Microprocessor complex subunit DGCR8 [Homo sapiens]
-PLPDGWIMTFHNSGVPVYLHRESRVVTWSRPYF
->smart|WW-uniprot|Q13474|DRP2_HUMAN/353-385 Dystrophin-related protein 2 [Homo sapiens]
-SVQVPWERAISPNKVPYYINHQAQTTCWDHPKM
->smart|WW-uniprot|Q8N3X1-2|Q8N3X1-2/217-250 Isoform 2 of Formin-binding protein 4 [Homo sapiens]
-IEMGDWQEVWDENTGCYYYWNTQTNEVTWELPQY
->smart|WW-uniprot|O60861|GAS7_HUMAN/78-110 Growth arrest-specific protein 7 [Homo sapiens]
-ILPPGWQSYLSPQGRRYYVNTTTNETTWERPSS
->smart|WW-uniprot|P46940|IQGA1_HUMAN/680-712 Ras GTPase-activating-like protein IQGAP1 [Homo sapiens]
-DNNSKWVKHWVKGGYYYYHNLETQEGGWDEPPN
->smart|WW-uniprot|Q5TCQ9-1|Q5TCQ9-1/340-397 Isoform 4 of Membrane-associated guanylate kinase, WW and PDZ domain-containing protein 3 [Homo sapiens]
-ELPYGWEKIEDPQYGTYYVDFTLVAQAGVQWHDLGSLQPPPPGFNHLNQKTQFENPVE
->smart|WW-uniprot|O60828-3|O60828-3/47-80 Isoform 3 of Polyglutamine-binding protein 1 [Homo sapiens]
-GLPPSWYKVFDPSCGLPYYWNADTDLVSWLSPHD
->smart|WW-uniprot|Q8IWW6|RHG12_HUMAN/359-391 Rho GTPase-activating protein 12 [Homo sapiens]
-YTNEKWLKHVDDQGRQYYYSADGSRSEWELPKY
->smart|WW-uniprot|Q6ZUM4|RHG27_HUMAN/247-280 Rho GTPase-activating protein 27 [Homo sapiens]
+>smart|WW-uniprot|UPI0001892BC9|UPI0001892BC9/266-298 rho GTPase-activating protein 12 isoform 5 [Homo sapiens]
+QINGEWETHKDSSGRCYYYNRGTQERTWKPPRW
+>smart|WW-uniprot|B7Z6T0|B7Z6T0_HUMAN/47-80 cDNA FLJ55812, highly similar to Mus musculus Rho GTPase activating protein 27 (Arhgap27), transcript variant 1, mRNA [Homo sapiens]
 LPSPVWETHTDAGTGRPYYYNPDTGVTTWESPFE
->smart|WW-uniprot|Q9C0H5|RHG39_HUMAN/25-58 Rho GTPase-activating protein 39 [Homo sapiens]
+>smart|WW-uniprot|UPI0007DC7584|UPI0007DC7584/529-561 transcription elongation regulator 1 isoform X10 [Homo sapiens]
+IPGTPWCVVWTGDERVFFYNPTTRLSMWDRPDD
+>smart|WW-uniprot|Q9HCE7-2|Q9HCE7-2/235-267 Isoform Short of E3 ubiquitin-protein ligase SMURF1 [Homo sapiens]
+ELPEGYEQRTTVQGQVYFLHTQTGVSTWHDPRI
+>smart|WW-uniprot|UPI0007DC7FF7|UPI0007DC7FF7/11-43 centrosomal protein of 164 kDa isoform X20 [Homo sapiens]
+PLPGEWKPCQDITGDIYYFNFANGQSMWDHPCD
+>smart|WW-uniprot|Q9C0H5-2|Q9C0H5-2/25-58 Isoform 2 of Rho GTPase-activating protein 39 [Homo sapiens]
 NTRLEWVEIIEPRTRERMYANLVTGECVWDPPAG
->smart|WW-uniprot|Q6AWC2|WWC2_HUMAN/58-90 Protein WWC2 [Homo sapiens]
-ELPWGWEAGFDPQIGVYYIDHINKTTQIEDPRK
->smart|WW-uniprot|B7Z1H5|B7Z1H5_HUMAN/103-134 cDNA FLJ53874, highly similar to Amyloid beta A4 protein-binding family B member 1 [Homo sapiens]
-DLPAGWMRVQDTSGTYYWHIPTGTTQWEPPGR
->smart|WW-uniprot|E9PKC0|E9PKC0_HUMAN/10-42 Pleckstrin homology domain-containing family A member 7 [Homo sapiens]
-TLPEHWSYGVCRDGRVFFINDQLRCTTWLHPRT
->smart|WW-uniprot|UPI00001FB721|UPI00001FB721/57-79 pleckstrin homology domain-containing family A member 5 isoform X16 [Homo sapiens]
-DLPTGWEEAYTFEGARYYINPRY
->smart|WW-uniprot|UPI000387B10C|UPI000387B10C/132-164 transcription elongation regulator 1 isoform X1 [Homo sapiens]
-PTEEIWVENKTPDGKVYYYNARTRESAWTKPDG
->smart|WW-uniprot|UPI0003EAF7DB|UPI0003EAF7DB/575-625 E3 ubiquitin-protein ligase NEDD4-like isoform X9 [Homo sapiens]
+>smart|WW-uniprot|UPI0003EB0337|UPI0003EB0337/57-89 pleckstrin homology domain-containing family A member 5 isoform X7 [Homo sapiens]
+DLPTGWEEAYTFEGARYYINHNERKVTCKHPVT
+>smart|WW-uniprot|UPI0007DC6EF1|UPI0007DC6EF1/412-462 E3 ubiquitin-protein ligase NEDD4-like isoform X5 [Homo sapiens]
 PLPPGWEERIHLDGRTFYIDHSSQVLCGENDTRESVPSYDSKITQWEDPRL
->smart|WW-uniprot|UPI0005D01A72|UPI0005D01A72/353-385 transcription elongation regulator 1-like protein isoform X1 [Homo sapiens]
-VPGSPWCVVWTGDDRVFFFNPTMHLSVWEKPMD
+>smart|WW-uniprot|O75554-2|O75554-2/143-175 Isoform 2 of WW domain-binding protein 4 [Homo sapiens]
+AVKTVWVEGLSEDGFTYYYNTETGESRWEKPDD
+>smart|WW-ensembl|ENSP00000247140.4|ENSP00000247140.4/47-80 no description [Homo sapiens]
+GLPPSWYKVFDPSCGLPYYWNADTDLVSWLSPHD
+>smart|WW-uniprot|Q5T097|Q5T097_HUMAN/368-400 Utrophin [Homo sapiens]
+SVQLPWQRSISHNKVPYYINHQTQTTCWDHPKM
+>smart|WW-uniprot|E9PNX6|E9PNX6_HUMAN/155-187 Rho GTPase-activating protein 27 (Fragment) [Homo sapiens]
+FTQEQWVRLEDPHGKPYFYNPEDSSVRWELPQV
 >smart|WW-uniprot|A0A087WXD2|A0A087WXD2_HUMAN/1-26 Membrane-associated guanylate kinase, WW and PDZ domain-containing protein 1 [Homo sapiens]
 MAYTENGEVYFIDHNTKTTSWLDPRC
+>smart|WW-uniprot|Q5TCQ9-1|Q5TCQ9-1/340-397 Isoform 4 of Membrane-associated guanylate kinase, WW and PDZ domain-containing protein 3 [Homo sapiens]
+ELPYGWEKIEDPQYGTYYVDFTLVAQAGVQWHDLGSLQPPPPGFNHLNQKTQFENPVE
+>smart|WW-uniprot|UPI0005D0160D|UPI0005D0160D/9-41 pleckstrin homology domain-containing family A member 6 isoform X11 [Homo sapiens]
+DLPGRWAYGVDGGGRIFFINDEEKSTSWVHPGT
+>smart|WW-uniprot|Q8N3X1-2|Q8N3X1-2/598-631 Isoform 2 of Formin-binding protein 4 [Homo sapiens]
+ATPKGWSCHWDRDHRRYFYVNEQSGESQWEFPDG
